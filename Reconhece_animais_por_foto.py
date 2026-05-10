@@ -25,6 +25,6 @@ def reconhece_animais(caminho:str) -> str:
     return f"Classe: {pred_class}, Confidence: {confidence:.2%}"
 
 if __name__ == "__main__":
-    animal = reconhece_animais("C:\\Users\\Nitro\\Downloads\\sh.png")
+    animal = reconhece_animais("C:\\Users\\Nitro\\Downloads\\Captura de tela 2026-05-09 231337.png")
     print(animal)
 
